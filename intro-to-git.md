@@ -24,7 +24,7 @@
 
 ### 文件内容-SVN
 
-![svn差异比较](/img/0104.png)
+![svn差异比较](./img/0104.png)
 
 SVN差异比较
 
@@ -32,7 +32,7 @@ SVN差异比较
 
 ### 文件内容-GIT
 
-![git文件快照](/img/0105.png)
+![git文件快照](./img/0105.png)
 
 GIT文件快照 **快**
 
@@ -94,7 +94,7 @@ git clone url
 
 ----
 ### 文件状态
-![文件状态变化周期](/img/0201.png)
+![文件状态变化周期](./img/0201.png)
 ```
 git status
 git add README.md
@@ -166,39 +166,39 @@ git push origin --tags
 
 ### 何谓分支
 
-![单个提交对象在仓库中的数据结构](/img/0301.png)
+![单个提交对象在仓库中的数据结构](./img/0301.png)
 
 单个提交对象在仓库中的数据结构
 
 ----
 ### 何谓分支
-![多个提交对象之间的链接关系](/img/0302.png)
+![多个提交对象之间的链接关系](./img/0302.png)
 
 多个提交对象之间的链接关系
 
 ----
 ### 何谓分支
-![分支其实就是从某个提交对象往回看的历史](/img/0303.png)
+![分支其实就是从某个提交对象往回看的历史](./img/0303.png)
 
 分支其实就是从某个提交对象往回看的历史
 
 ----
 ### 何谓分支
-![HEAD 指向当前所在的分支](/img/0305.png)
+![HEAD 指向当前所在的分支](./img/0305.png)
 
 HEAD 指向当前所在的分支
 
 ----
 ### 创建分支 
 
-![多个分支指向提交数据的历史](/img/0304.png)
+![多个分支指向提交数据的历史](./img/0304.png)
 
 ```git br testing```
 
 ----
 ### 切换分支
 
-![HEAD 在你转换分支时指向新的分支](/img/0306.png)
+![HEAD 在你转换分支时指向新的分支](./img/0306.png)
 
 改变HEAD指向
 
@@ -206,7 +206,7 @@ HEAD 指向当前所在的分支
 
 ----
 ### 提交变动
-![每次提交后 HEAD 随着分支一起向前移动](/img/0307.png)
+![每次提交后 HEAD 随着分支一起向前移动](./img/0307.png)
 
 提交后 HEAD 随着分支一起向前移动
 
@@ -215,13 +215,13 @@ HEAD 指向当前所在的分支
 ----
 ### 切换分支
 
-![HEAD 在一次 checkout 之后移动到了另一个分支](/img/0308.png)
+![HEAD 在一次 checkout 之后移动到了另一个分支](./img/0308.png)
 
 ``` git co master ```
 
 ----
 ### 不同流向的分支历史
-![不同流向的分支历史](/img/0309.png)
+![不同流向的分支历史](./img/0309.png)
 
 ```git commit -am '修改之后再次提交'```
 
@@ -229,13 +229,13 @@ HEAD 指向当前所在的分支
 
 ### 分支合并
 
-![hotfix分支是从master分支分化出来](/img/0313.png)
+![hotfix分支是从master分支分化出来](./img/0313.png)
 
 当前分支
 
 ----
 ### Fast forward
-![Fast forward](/img/0314.png)
+![Fast forward](./img/0314.png)
 
 ```
 git co master
@@ -246,7 +246,7 @@ git br -d hotfix
 
 ----
 ### 合并分支
-![合并](/img/0317.png)
+![合并](./img/0317.png)
 ```
 git co master
 git merge iss53
@@ -255,8 +255,8 @@ git merge iss53
 
 ----
 ### rebase
-![Fast forward](/img/0329.png)</br>
-![rebase](/img/0330.png)
+![Fast forward](./img/0329.png)</br>
+![rebase](./img/0330.png)
 
 ```
 git co master
@@ -265,7 +265,7 @@ git rebase experiment
 
 ----
 ### 远程分支
-<img src="/img/0326.png" alt="remote" style="height:360px;">
+<img src="./img/0326.png" alt="remote" style="height:360px;">
 
 ```
 git push origin master
@@ -279,19 +279,19 @@ git push origin :dev // 删除分支
 
 ----
 ### 公共分支
-![公共分支](/img/flow-a.png)
+![公共分支](./img/flow-a.png)
 
 **master**-稳定分支 每次提交都有版本号
 
 ----
 ### 特性分支
-![特性分支](/img/flow-b.png)
+![特性分支](./img/flow-b.png)
 
 特性分支从`develop`分支拉出，合并回`develop`分支
 
 ----
 ### 发布分支
-![发布分支](/img/flow-c.png)
+![发布分支](./img/flow-c.png)
 
 发布分支只做bug修复以及面向发布任务，不加功能
 
@@ -299,7 +299,7 @@ git push origin :dev // 删除分支
 
 ----
 ### 维护分支
-![热修复](/img/flow-d.png)
+![热修复](./img/flow-d.png)
 
 ---
 
