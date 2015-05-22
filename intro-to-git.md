@@ -40,6 +40,8 @@ GIT文件快照 **快**
 
 ### 分布式
 
+![分布式](./img/0103.png)
+
 ---
 
 ### git 安装与配置
@@ -169,6 +171,11 @@ git push origin --tags
 ![单个提交对象在仓库中的数据结构](./img/0301.png)
 
 单个提交对象在仓库中的数据结构
+
+```
+git cat-file -p sha-1 // 查看命令
+git verify-pack -v pack.idx
+```
 
 ----
 ### 何谓分支
@@ -305,6 +312,8 @@ git push origin :dev // 删除分支
 
 ## Advance
 
+----
+
 - **stash**  储藏变更，但不提交
 - **重写历史** 
 ``` 
@@ -316,6 +325,11 @@ git rebase -i HEAD~3
     ``` 
     git reflog 
     git log -g
+    ```
+- **调试**
+    ```
+git blame -L line file
+git bisect
     ```
 
 
