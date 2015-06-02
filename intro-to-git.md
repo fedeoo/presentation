@@ -40,7 +40,7 @@ GIT文件快照 **快**
 
 ### 分布式
 
-![分布式](./img/0103.png)
+<img src="./img/0103.png" alt="分布式版本控制" style="height:480px">
 
 ---
 
@@ -349,7 +349,7 @@ wiki
 ### reference
 
 - [Pro git](http://git.oschina.net/progit/)
-- [git flow](http://nvie.com/posts/a-successful-git-branching-model/)
+- [git flow](http://blog.jobbole.com/76843/)
 
 ---
 
